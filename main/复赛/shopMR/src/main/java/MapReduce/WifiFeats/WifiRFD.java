@@ -56,8 +56,8 @@ public final class WifiRFD implements WifiFeat {
 
     public void reset() {
         // 最大距离111111
-        rfd1 = 600;
-        rfd2 = 600;
+        rfd1 = 111111;
+        rfd2 = 111111;
     }
 
     public String serialize() {
